@@ -11,14 +11,12 @@ import android.widget.EditText;
 public class NoteEditorActivity extends AppCompatActivity {
 
     int noteID;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_note_editor);
 
         EditText editText = (EditText) findViewById(R.id.editText);
-
         Intent intent = getIntent();
         noteID = intent.getIntExtra("noteID", -1);
 
