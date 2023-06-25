@@ -9,7 +9,9 @@
     <EditText
         android:id="@+id/editText"
         android:layout_width="374dp"
-        android:layout_height="638dp"
+        android:layout_height="620dp"
+        android:layout_marginTop="32dp"
+        android:editable="true"
         android:ems="10"
         android:gravity="start|top"
         android:inputType="textMultiLine"
@@ -17,5 +19,18 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/Titel"
+        android:layout_width="374dp"
+        android:layout_height="44dp"
+        android:editable="true"
+        android:ems="10"
+        android:hint="titel"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="10dp"
+        tools:text="hallo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
